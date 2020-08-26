@@ -5,7 +5,7 @@ from sklearn import svm
 from sklearn.model_selection import GridSearchCV
 
 ##Step1: Load Dataset
-dataframe = pd.read_csv("spam.csv")
+dataframe = pd.read_csv("spam_dataset.csv")
 print(dataframe.describe())
 
 ##Step2: Split in to Training and Test Data
