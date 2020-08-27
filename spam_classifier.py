@@ -25,7 +25,6 @@ model = GridSearchCV(svm.SVC(), tuned_parameters)
 model.fit(features,y_train)
 
 print(model.best_params_)
-
 print(model.score(cv.transform(x_test),y_test))
 
 
